@@ -14,22 +14,22 @@ def about():
 
 
 @route('/contact')
-def index():
+def contact():
     return '<h1>Hello It is test 3 Index page</h1>!'
 
 
 @route('/blog')
-def index():
+def blog():
     return '<h1>Hello It is test 4 Index page</h1>!'
 
 
 @route('/login')
-def index():
+def login():
     return '<h1>Hello It is test 5 Index page</h1>!'
 
 
 @route('/News')
-def index():
+def News():
     return '<h1>Hello It is test news Index page</h1>!'
 
 @route('/faq')
