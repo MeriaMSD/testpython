@@ -8,26 +8,21 @@ def index():
     return '<h1>Hello It is Index page</h1>!'
 
 
-@route('/')
+@route('/about')
 def index():
     return '<h1>Hello It is test 2 Index page</h1>!'
 
 
 
+@route('/contact')
+def index():
+    return '<h1>Hello It is test 3 Index page</h1>!'
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+@route('/blog')
+def index():
+    return '<h1>Hello It is test 4 Index page</h1>!'
 
 
 
