@@ -9,7 +9,7 @@ def index():
 
 
 @route('/about')
-def index():
+def about():
     return '<h1>Hello It is test 2 Index page</h1>!'
 
 
@@ -32,6 +32,8 @@ def index():
 def index():
     return '<h1>Hello It is test news Index page</h1>!'
 
-
+@route('/faq')
+def faq():
+    return '<h1>Hello It is test news Index page</h1>!'
 
 run(host='localhost', port=8080)
