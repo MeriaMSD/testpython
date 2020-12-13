@@ -13,17 +13,19 @@ def index():
     return '<h1>Hello It is test 2 Index page</h1>!'
 
 
-
 @route('/contact')
 def index():
     return '<h1>Hello It is test 3 Index page</h1>!'
-
 
 
 @route('/blog')
 def index():
     return '<h1>Hello It is test 4 Index page</h1>!'
 
+
+@route('/login')
+def index():
+    return '<h1>Hello It is test 5 Index page</h1>!'
 
 
 run(host='localhost', port=8080)
