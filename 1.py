@@ -28,4 +28,10 @@ def index():
     return '<h1>Hello It is test 5 Index page</h1>!'
 
 
+@route('/News')
+def index():
+    return '<h1>Hello It is test news Index page</h1>!'
+
+
+
 run(host='localhost', port=8080)
