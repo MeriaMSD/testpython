@@ -16,6 +16,7 @@ def index():
     response.content_type = 'application/json'
     return dumps(result)
 
+#tst
 @route('/about')
 def about():
     return '<h1>Hello It is test 2 Index page</h1>!'
